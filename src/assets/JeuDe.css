@@ -1,0 +1,75 @@
+.jeu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f4f7fc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.jeu-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.jeu-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.jeu-input:focus {
+    outline: none;
+    border-color: #008cba;
+}
+
+.jeu-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.jeu-face, .jeu-compteur {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.jeu-button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.jeu-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.jeu-button:hover {
+    background-color: #005f73;
+}
+
+.jeu-win-message {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
